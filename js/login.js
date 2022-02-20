@@ -49,7 +49,7 @@ class Login {
         this.helper = new Helper();
         this.mode = 'signup'
 
-        setURL('http://gruppe-142.developerakademie.net/smallest_backend_ever');
+        setURL('https://nils-spiller.de/projects/smallest_backend_ever');
 
         this.defineElements();
     }

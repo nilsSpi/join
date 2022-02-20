@@ -1,7 +1,7 @@
 'use strict';
 
 let popup = new PopUp("Task created successfully and moved to backlog!", "3%", "3%", 0.2, 2.2, 8);
-setURL('http://gruppe-142.developerakademie.net/smallest_backend_ever');
+setURL('https://nils-spiller.de/projects/smallest_backend_ever');
 
 let helper = new Helper();
 let selectedUser;

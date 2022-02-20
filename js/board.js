@@ -312,7 +312,7 @@ function loadDone() {
  */
 async function loadServerData() {
     helper = new Helper;
-    setURL('http://gruppe-142.developerakademie.net/smallest_backend_ever');
+    setURL('https://nils-spiller.de/projects/smallest_backend_ever');
     await helper.getDataFromServer();
     helper.allTasks.forEach(task => {
         loadedTasks.push(task);
